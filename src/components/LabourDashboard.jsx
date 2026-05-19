@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
-import { db } from './firebase'; // Your existing Firebase config
+import { db } from '../firebase'; // Your existing Firebase config
 
 const LabourDashboard = () => {
   const [labourData, setLabourData] = useState([]);
